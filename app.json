@@ -1,0 +1,6 @@
+{
+  "name": "Angular CLI Heroku Boilerplate",
+  "description": "The bare minimum starter code that allows users to easily deploy Angular CLI projects powered by Node and Express to Heroku.",
+  "repository": "https://github.com/AryanJ-NYC/angular-cli-heroku-boilerplate",
+  "keywords": ["node", "express", "boilerplate", "angular", "angular-2"]
+}
