@@ -21,6 +21,8 @@ This README outlines how to quickly deploy your Angular CLI project to Heroku.
 
 **OR**
 
+* Install [Homebrew](https://brew.sh/)
+* `brew install heroku`
 * `heroku create <your-project-name>`
 * `git push heroku master`
 * `heroku open`
@@ -28,8 +30,8 @@ This README outlines how to quickly deploy your Angular CLI project to Heroku.
 ## Changes Made to Original Angular CLI code
 
 * Added [`server.js`](https://github.com/AryanJ-NYC/angular-cli-heroku-boilerplate/blob/master/server.js)
-* Added `@angular/cli` to dependencies in [`package.json`](https://github.com/AryanJ-NYC/angular-cli-heroku-boilerplate/blob/master/package.json)
-* Added `@angular/compiler-cli` to dependencies in [`package.json`](https://github.com/AryanJ-NYC/angular-cli-heroku-boilerplate/blob/master/package.json)
+* Added `@angular/cli` to dev-dependencies in [`package.json`](https://github.com/AryanJ-NYC/angular-cli-heroku-boilerplate/blob/master/package.json)
+* Added `@angular/compiler-cli` to dev-dependencies in [`package.json`](https://github.com/AryanJ-NYC/angular-cli-heroku-boilerplate/blob/master/package.json)
 * Added `postinstall` script to [`package.json`](https://github.com/AryanJ-NYC/angular-cli-heroku-boilerplate/blob/master/package.json) that builds app for production deployment
 * Edited `start` script in [`package.json`](https://github.com/AryanJ-NYC/angular-cli-heroku-boilerplate/blob/master/package.json) to launch run [`server.js`](https://github.com/AryanJ-NYC/angular-cli-heroku-boilerplate/blob/master/server.js) instead of Angular CLI server
 
@@ -37,3 +39,8 @@ This README outlines how to quickly deploy your Angular CLI project to Heroku.
 Like this boilerplate? Support my developments.
 
 [![Support via PayPal](https://cdn.rawgit.com/twolfson/paypal-github-button/1.0.0/dist/button.svg)](https://www.paypal.me/AryanJ)
+
+Please star this repository to help it gain exposure.
+
+## Other Boilerplates
+Looking for an Angular boilerplate without CLI?  Check out [this repository](https://github.com/AryanJ-NYC/angular-4-heroku-boilerplate).
