@@ -41,6 +41,3 @@ Like this boilerplate? Support my developments.
 [![Support via PayPal](https://cdn.rawgit.com/twolfson/paypal-github-button/1.0.0/dist/button.svg)](https://www.paypal.me/AryanJ)
 
 Please star this repository to help it gain exposure.
-
-## Other Boilerplates
-Looking for an Angular boilerplate without CLI?  Check out [this repository](https://github.com/AryanJ-NYC/angular-4-heroku-boilerplate).
